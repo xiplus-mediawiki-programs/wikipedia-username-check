@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <?php
 require_once(__DIR__.'/vendor/autoload.php');
+use Krinkle\Intuition\Intuition;
 $int = new Intuition('wikipedia-username-check');
 $int->registerDomain('wikipedia-username-check', __DIR__.'/i18n');
 ?>

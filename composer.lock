@@ -4,42 +4,41 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f486320b26b73a3f69a21cb726dc6d88",
+    "content-hash": "02e48b6756694c6af418c4a15b0dea31",
     "packages": [
         {
             "name": "krinkle/intuition",
-            "version": "v1.2.0",
+            "version": "v2.3.6",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Krinkle/intuition.git",
-                "reference": "dee3883497dae9b7f48c6b3e4faba711367745b1"
+                "url": "https://github.com/wikimedia/labs-tools-intuition.git",
+                "reference": "5871a02c009621cf7c1bc1a240fab30688b9db48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Krinkle/intuition/zipball/dee3883497dae9b7f48c6b3e4faba711367745b1",
-                "reference": "dee3883497dae9b7f48c6b3e4faba711367745b1",
+                "url": "https://api.github.com/repos/wikimedia/labs-tools-intuition/zipball/5871a02c009621cf7c1bc1a240fab30688b9db48",
+                "reference": "5871a02c009621cf7c1bc1a240fab30688b9db48",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.0"
+                "php": ">=7.2"
             },
             "require-dev": {
-                "jakub-onderka/php-parallel-lint": "1.0.0",
-                "mediawiki/mediawiki-codesniffer": "22.0.0",
-                "php-coveralls/php-coveralls": "^2.1",
-                "phpunit/phpunit": "^6.5.11"
+                "mediawiki/mediawiki-codesniffer": "32.0.0",
+                "php-coveralls/php-coveralls": "^2.4",
+                "php-parallel-lint/php-parallel-lint": "^1.0.0",
+                "phpunit/phpunit": "^8.5.13"
             },
             "type": "library",
             "autoload": {
                 "files": [
-                    "src/defines.php",
-                    "src/compat.php"
+                    "src/defines.php"
                 ],
-                "psr-4": {
-                    "Krinkle\\Intuition\\": "src/"
-                },
                 "psr-0": {
                     "MessagesFunctions": "language/"
+                },
+                "psr-4": {
+                    "Krinkle\\Intuition\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -47,15 +46,20 @@
                 "MIT"
             ],
             "description": "Framework for localisation in PHP.",
-            "time": "2018-11-06T18:04:32+00:00"
+            "support": {
+                "source": "https://github.com/wikimedia/labs-tools-intuition/tree/v2.3.6"
+            },
+            "time": "2024-03-28T22:32:35+00:00",
+            "published-time": "2024-03-28T22:33:48+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": []
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.11.0"
 }
